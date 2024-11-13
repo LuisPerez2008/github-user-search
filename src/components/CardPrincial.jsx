@@ -16,9 +16,9 @@ export const CardPrinciapl = ({datos}) => {
 
     return (
         <section className="  text-black max-w-[90%] bg-white dark:bg-principal dark:text-white shadow-xl py-12 rounded-2xl mx-auto my-8">
-            <div className='grid grid-cols-1 tablet:grid-cols-[1fr_3fr_1fr] gap-3 tablet:grid-rows-[auto_auto_auto] max-w-[90%] mx-auto'>
+            <div className='grid grid-cols-1 tablet:grid-cols-[1fr_3fr_1fr] gap-3 tablet:grid-rows-[auto_auto_auto] max-w-[90%] mx-auto tablet:space-x-2'>
                 <div className=" tablet:col-span-3 ">
-                    <div className='grid grid-cols-[1fr_3.6fr] grid-rows-[auto_auto]  '>
+                    <div className='grid grid-cols-[1fr_3.6fr] space-x-2 grid-rows-[auto_auto]  '>
                         <div className='tablet:row-span-2  ' ><img src={datos.avatar_url} alt="" className='w-[90px] tablet:w-[120px] rounded-full h-auto tablet:mt-2  ' /></div>
                         <div className='flex gap-8 items-center mb-3 '>
 
